@@ -21,3 +21,7 @@ My first project in TripleTen's AI-Assisted Software Engineering program. It inc
 - Interactive flascards
 - Clean, user-friendly interface
 - Easy navigation between cards
+
+## Deployes Site
+
+Check out [this site](https://dyvae44.github.io/ai-se_project_flashcards/) on Github Pages.
