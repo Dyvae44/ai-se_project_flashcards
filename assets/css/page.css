@@ -1,0 +1,17 @@
+.page {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 40px 32px 40px;
+  font-family: Inter, arial, Helvetica, sans-serif;
+  line-height: 1;
+  color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+.page__main-content {
+  flex-grow: 1;
+}

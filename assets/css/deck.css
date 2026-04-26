@@ -1,0 +1,88 @@
+.deck {
+  position: relative;
+  width: 325px;
+  height: 205px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.deck__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  text-decoration: none;
+  color: inherit;
+  pointer-events: auto;
+}
+
+.deck__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  color: #1a1a1a;
+  position: relative;
+  z-index: 2;
+}
+
+.deck__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  gap: 20px;
+}
+
+.deck__count {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.deck__delete-btn {
+  width: 24px;
+  height: 24px;
+  background: url("../images/delete.svg") center/contain no-repeat;
+  border: none;
+  opacity: 1;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.deck__delete-btn:hover {
+  opacity: 0.1;
+}
+
+.deck_color_green {
+  background-color: #64d583;
+}
+
+.deck_color_blue {
+  background-color: #91a8f9;
+}
+
+.deck_color_pink {
+  background-color: #ee92d7;
+}
+
+.deck_color_purple {
+  background-color: #aa8ef0;
+}
+
+.deck_color_orange {
+  background-color: #ee955e;
+}
+
+.deck_color_yellow {
+  background-color: #f5d770;
+}
