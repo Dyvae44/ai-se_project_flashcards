@@ -1,0 +1,48 @@
+.deck-view {
+  display: none;
+  padding: 32px 0;
+}
+
+.deck-view__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.deck-view__title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.deck-view__practice-btn {
+  margin-bottom: 16px;
+  padding: 12px 20px;
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.deck-view__practice-btn:hover {
+  background-color: #333;
+}
+
+.deck-view__new-card-btn {
+  padding: 12px 20px;
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.deck-view__new-card-btn:hover {
+  background-color: #333;
+}

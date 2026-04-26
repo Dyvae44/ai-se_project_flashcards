@@ -45,3 +45,18 @@
   align-items: center;
   margin: 60px 0 40px;
 }
+
+.gallery__practice-btn {
+  padding: 12px 24px;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.gallery__practice-btn:hover {
+  background-color: #333333;
+}
