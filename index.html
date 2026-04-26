@@ -66,6 +66,52 @@
           </button>
         </div>
       </section>
+
+      <section id="deck-view" class="gallery">
+        <div class="gallery__header">
+          <h2 class="gallery__title"></h2>
+          <button
+            class="gallery__practice-btn"
+            type="button"
+            aria-label="Practice deck"
+          >
+            Practice
+          </button>
+        </div>
+
+        <div class="gallery__row">
+          <template id="card-template">
+            <li class="card card_color_green">
+              <h3 class="card__title"></h3>
+
+              <div class="card__row">
+                <button
+                  class="card__practice-btn"
+                  type="button"
+                  aria-label="Practice this card"
+                >
+                  Practice
+                </button>
+                <button
+                  class="card__delete-btn"
+                  type="button"
+                  aria-label="Delete card"
+                ></button>
+              </div>
+            </li>
+          </template>
+
+          <ul class="gallery__list"></ul>
+          <button
+            class="gallery__new-card-btn"
+            type="button"
+            aria-label="New card"
+          >
+            + New Card
+          </button>
+        </div>
+      </section>
+
       <section id="about" class="about">
         <h2 class="about__title">About</h2>
         <p class="about__text">
