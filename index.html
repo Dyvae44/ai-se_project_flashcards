@@ -30,39 +30,39 @@
       </h1>
       <nav class="nav">
         <ul class="nav__links">
-          <li><a href="#home" class="nav__link">My Decks</a></li>
+          <li><a href="#home" class="nav__link">My Cards</a></li>
           <li><a href="#about" class="nav__link">About</a></li>
         </ul>
       </nav>
     </header>
     <main class="page__main-content">
-      <section id="home" class="decks">
-        <h2 class="decks__title">My Decks</h2>
-        <div class="decks__row">
+      <section id="home" class="gallery">
+        <h2 class="gallery__title">My Cards</h2>
+        <div class="gallery__row">
           <template id="deck-template">
-            <li class="deck deck_color_green">
-              <h3 class="deck__title"></h3>
+            <li class="card card_color_green">
+              <h3 class="card__title"></h3>
 
-              <div class="deck__row">
-                <p class="deck__count"></p>
+              <div class="card__row">
+                <p class="card__count"></p>
                 <button
-                  class="deck__delete-btn"
+                  class="card__delete-btn"
                   type="button"
-                  aria-label="Delete deck"
+                  aria-label="Delete card"
                 ></button>
               </div>
 
-              <a class="deck__link" href="#"></a>
+              <a class="card__link" href="#"></a>
             </li>
           </template>
 
-          <ul class="decks__list"></ul>
+          <ul class="gallery__list"></ul>
           <button
-            class="decks__new-deck-btn"
+            class="gallery__new-card-btn"
             type="button"
-            aria-label="New deck"
+            aria-label="New card"
           >
-            + New deck
+            + New Card
           </button>
         </div>
       </section>

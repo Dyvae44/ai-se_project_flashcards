@@ -1,4 +1,4 @@
-.deck {
+.card {
   position: relative;
   width: 325px;
   height: 205px;
@@ -11,7 +11,7 @@
   margin: 0;
 }
 
-.deck__link {
+.card__link {
   position: absolute;
   inset: 0;
   z-index: 1;
@@ -20,7 +20,7 @@
   pointer-events: auto;
 }
 
-.deck__title {
+.card__title {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
@@ -30,7 +30,7 @@
   z-index: 2;
 }
 
-.deck__row {
+.card__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +38,7 @@
   gap: 20px;
 }
 
-.deck__count {
+.card__count {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -47,7 +47,7 @@
   z-index: 2;
 }
 
-.deck__delete-btn {
+.card__delete-btn {
   width: 24px;
   height: 24px;
   background: url("../images/delete.svg") center/contain no-repeat;
@@ -59,30 +59,30 @@
   z-index: 2;
 }
 
-.deck__delete-btn:hover {
+.card__delete-btn:hover {
   opacity: 0.1;
 }
 
-.deck_color_green {
+.card_color_green {
   background-color: #64d583;
 }
 
-.deck_color_blue {
+.card_color_blue {
   background-color: #91a8f9;
 }
 
-.deck_color_pink {
+.card_color_pink {
   background-color: #ee92d7;
 }
 
-.deck_color_purple {
+.card_color_purple {
   background-color: #aa8ef0;
 }
 
-.deck_color_orange {
+.card_color_orange {
   background-color: #ee955e;
 }
 
-.deck_color_yellow {
+.card_color_yellow {
   background-color: #f5d770;
 }
